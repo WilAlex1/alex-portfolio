@@ -20,11 +20,14 @@ const WorkdCard = () => {
               <small className="font-bold">Technologies used</small>:{" "}
               {x.technologie}
             </p>
-            <Link to={`/${x._id}`}>
+            
+      
+           <Link to={`/${x._id}`}>
               <button className="text-center bg-[#1A1A1A] text-white border-none p-2 rounded font-bold  w-full ">
                 View project{" "}
               </button>
             </Link>
+        
           </div>
         </div>
       ))}

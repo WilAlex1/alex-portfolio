@@ -10,21 +10,22 @@ const EducationalBackground = () => {
           {educationalBackground.map((x) => (
             <div className="md:grid md:grid-cols-3 gap-4" key={x._id}>
               <div className="">
-                <div className="flex items-center">
+                <div className="flex items-center py-2">
                   <h1>Institution:</h1>
-                  <p className="ml-4">{x.school}</p>
+                  <p className="ml-4 py-2">{x.school}</p>
                 </div>
               </div>
-              <p>{x.duration}</p>
-              <div className="">{x.level_of_education}</div>
+              <p className="py-2">{x.duration}</p>
+              <div className="py-2">{x.level_of_education}</div>
             </div>
           ))}
         </div>
+
         <p className="font-bold lg:text-4xl py-4">Experiences</p>
         {experiences.map((x) => (
           <div className="" key={x._id}>
             <div className="md:grid md:grid-cols-4 gap-4">
-              <div className="">
+              <div className="py-2">
                 <p>Institution</p>
                 <p className="uppercase font-bold">{x.company}</p>
               </div>

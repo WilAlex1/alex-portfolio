@@ -9,20 +9,19 @@ const About = () => {
             Let's Try to get to know me{" "}
           </h1>
           <p className="text-xl py-4  ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-            aspernatur. Adipisci, neque alias. Sunt laudantium, reiciendis
-            exercitationem quae unde earum at culpa nisi consequatur esse cumque
-            velit animi dolor sed.
+          Dynamique, tolérant, ambitieux, toujours avide de savoir, 
+          je possède un esprit de travail collaboratif et une expertise 
+          de très bonne qualités en Génie Civil. 
+          </p>
+          <p className="text-xl py-  ">
+            
+          Mes compétences s'étendent également
+           aux logiciels d'études techniques , travail et conduite des travaux sur chantier et à des connaissances générales
+            en informatique. 
           </p>
           <p className="text-xl py-4  ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-            aspernatur. Adipisci, neque alias. Sunt laudantium, reiciendis
-            exercitationem quae unde earum at culpa nisi consequatur esse cumque
-            velit animi dolor sed.
-          </p>
-          <p className="text-xl py-4  ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-            aspernatur. Adipisci
+          Ces qualités me définissent parfaitement et contribuent
+             à rendre mon profil professionnel particulier.
           </p>
         </div>
         <div className="flex flex-col items-center">

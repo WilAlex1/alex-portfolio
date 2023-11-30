@@ -12,7 +12,7 @@ const ProjectDetail = () => {
   return (
     <>
       <Header />
-      <div className="grid sm:grid-cols-1 py-8 gap-4 md:grid-cols-2 p-4 bg-[#1A1A1A] border-b-2 border-white text-white">
+      <div id='projectD' className="grid sm:grid-cols-1 py-8 gap-4 md:grid-cols-2 p-4 bg-[#1A1A1A] border-b-2 border-white text-white">
         <div className="">
           <img src={projectD.image} alt="image1" className="rounded-lg" />
           <h1 className="font-bold text-2xl py-2">{projectD.project_name}</h1>

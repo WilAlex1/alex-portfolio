@@ -14,24 +14,20 @@ const Homepage = () => {
           </div>
           <div className="">
             <h1 className="md:text-2xl homepage_text">
-              Embark on a visionary construction journey with our AutoCAD and
-              Revit master. At the innovation forefront,
+            Dans l'élan passionné d'un rêve devenu réalité, émerge une idée lumineuse.
             </h1>{" "}
             <br />
+            <p className="md:text-2xl homepage_text"> Mon amour pour ce que je fais m'inspire à créer non seulement pour 
+              moi-même mais aussi pour impacter positivement ceux qui m'entourent.</p>
+              <br />
             <p className="md:text-2xl homepage_text">
-              they skillfully transform blueprints into awe-inspiring
-              structures, shaping a future of construction excellence.
+            Embarquez avec moi 
+          dans un périple visionnaire au 
+          cœur de l'industrie de la construction, là où l'innovation est notre boussole
             </p>
-            <br />
-            <p className="md:text-2xl homepage_text">
-              they skillfully transform blueprints into awe-inspiring
-              structures, shaping a future of construction excellence.
-            </p>
-            <br />
-            <p className="md:text-2xl homepage_text">
-              they skillfully transform blueprints into awe-inspiring
-              structures.
-            </p>
+            
+           
+             
           </div>
         </div>
       </div>
