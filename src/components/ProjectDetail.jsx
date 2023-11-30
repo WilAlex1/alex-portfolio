@@ -37,24 +37,24 @@ const ProjectDetail = () => {
             </a>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-4">
           <img
-            src={projectD.image}
+            src={projectD.image4}
             alt=""
             className="h-full w-full border-[1px] border-white rounded p-[1px]"
           />
           <img
-            src={projectD.image}
+            src={projectD?.image1}
             alt=""
             className="h-full w-full border-[1px] border-white rounded p-[1px]"
           />
           <img
-            src={projectD.image}
+            src={projectD?.image2}
             alt=""
             className="h-full w-full border-[1px] border-white rounded p-[1px]"
           />
           <img
-            src={projectD.image}
+            src={projectD?.image3}
             alt=""
             className="h-full w-full border-[1px] border-white rounded p-[1px]"
           />

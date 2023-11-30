@@ -15,7 +15,7 @@ const WorkdCard = () => {
           />
           <div className="p-4">
             <p className=" font-bold">{x.project_name}</p>
-            <p>{x.description}</p>
+            <p>{x.description.slice(0,100)}...</p>
             <p>
               <small className="font-bold">Technologies used</small>:{" "}
               {x.technologie}
