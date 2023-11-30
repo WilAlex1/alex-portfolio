@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Tapestry&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  scroll-behavior: smooth;
+}
+.logo {
+  height: 100px;
+  width: 150px;
+}
+.alison {
+  height: 90px;
+  width: 90px;
+}
+.alex {
+  width: 350px;
+  height: 350px;
+}
+
+.homepage_text {
+  font-family: "Tapestry";
+}
+
+.link:hover {
+  cursor: pointer;
+  color: rgb(255, 119, 0);
+}
+.mobile_link:hover {
+  cursor: pointer;
+  color: #1a1a1a;
+  color: rgb(255, 119, 0);
+}
+
+@media screen and (max-width: 500px) {
+  .desktop {
+    display: none;
+  }
+}
+.desktop {
+}
