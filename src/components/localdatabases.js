@@ -31,7 +31,7 @@ export const works = [
     technologie: "Archicad, AutoCad, Twinmotion, Cypecad Excel and GANT-PROJET",
   },
   {
-    _id: "jkdkjghdhgdhg23",
+    _id: "jkdkjghdyhhgdhg23",
     project_name: "Modelisation d'une résidence privée",
     description:
       "Ici les travaux sont entièrement Architecturales",
