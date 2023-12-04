@@ -160,23 +160,20 @@ export const navigations = [
 export const testimonial =[
 {
   _id:'uyguguy',
-  text:'Travailler avec MMr DOUNANG DWA a été une expérience exceptionnelle. Son talent pour comprendre les régles du BTP est tout simplement remarquable, mais ce qui le distingue vraiment, c'est son insatiable inspiration. Il apporte une énergie créative qui stimule tout l'équipe. Son respect pour les idées des autres et sa capacité à collaborer font de lui un atout inestimable. Son amour pour la réussite et l'innovation est contagieux, créant une atmosphère propice à l'excellence.   j',
-  name:'HICHAND MOUJAHID ing structure ',
+  text:
+  
+  
+  "Travailler avec MMr DOUNANG DWA a été une expérience exceptionnelle.Son talent pour comprendre les régles du BTP est tout simplement remarquable,mais ce qui le distingue vraiment,c'est son insatiable inspiration. Il apporte une énergie créative qui stimule tout l'équipe. Son respect pour les idées des autres et sa capacité à collaborer font de lui un atout inestimable. Son amour pour la réussite et l'innovation est contagieux, créant une atmosphère propice à l'excellence",
+  name:'HICHAND MOUJAHID ing structure',
   photo:''
 },
 {
   _id:'ghpjl',
-  text:'Je suis constamment impressionné par les talents de Mr DOUNANG DWA dans de construction des logements . Son travail démontre une maîtrise exceptionnelle et une créativité hors pair. Ce qui me fascine le plus, c'est son respect sincère pour chacun dans l'équipe. Il écoute attentivement les idées de chacun et les intègre de manière transparente dans son processus. Sa passion pour la réussite et son esprit innovant sont véritablement motivants.',
+  text:"Je suis constamment impressionné par les talents de Mr DOUNANG DWA dans de construction des logements . Son travail démontre une maîtrise exceptionnelle et une créativité hors pair. Ce qui me fascine le plus, c'est son respect sincère pour chacun dans l'équipe. Il écoute attentivement les idées de chacun et les intègre de manière transparente dans son processus. Sa passion pour la réussite et son esprit innovant sont véritablement motivants.",
   name:'MARRUIS ing  ',
   photo:''
 },
-{
-  _id:'jhhip',
-  text:'Travailler aux côtés de Mr DOUNANG WIL a été une aventure inspirante. Son talent naturel est évidence pour quiconque travailler avec lui ,mais c'est son dévouement à l'innovation qui le distingue. DOUNANG respecte profondément ses collègues, encourageant un environnement de travail positif. Son amour pour la réussite et sa persévérance constante sont des qualités qui ne peuvent que conduire vers l'excellence'
-  ',
-  name:'HERVE DONGMO Archi',
-  photo:''
-},
+ 
 {
   _id:'',
   text:'',
