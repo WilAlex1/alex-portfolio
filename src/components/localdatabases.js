@@ -13,6 +13,18 @@ import planp from'/public/project/p13.png'
 import ptx1 from'/public/project/poteaux re.png'
 import ptx2 from'/public/project/principe de poteau .png'
 import semll from'/public/project/semelle pf.png'
+import fon1 from'/public/project/betonna semm.jpg'
+import fon2 from'/public/project/s isoll.jpg'
+import fon3 from'/public/project/fntio surp.jpg'
+import fon4 from'/public/project/mur de soute.png'
+import superv1 from'/public/project/conduite des tr.jpg'
+import superv from'/public/project/if.jpg'
+import super2 from'/public/project/pose des houdis.jpg'
+import super3 from'/public/project/supervi.jpg'
+import ragrea1 from'/public/project/regreage dallo.jpg'
+import ragrea2 from'/public/project/regrea route.jpg'
+import verification from'/public/project/verifation.jpg'
+
 
 export const works = [
   {
@@ -55,6 +67,36 @@ export const works = [
     image1: ptx1,
     image2: ptx2,
     image3: semll,
+
+    technologie: "AutoCad, Cypecad",
+  },
+  {
+    _id: "jkdkjghhewygtgttgdhgdhg24",
+    project_name: "Réalisation des fondations",
+    description:'Le projet est située à Garoua une ville du Cameroun et il etait question de faire des fondations pour des salles:',
+    image: fon1,
+    image4: fon2,
+    image1: fon3,
+    image2: fon4,
+
+    technologie: "Equipements et outils de chantier",
+  },{
+    _id: "jkdkjghhewygtgttgdhgdhg25",
+    project_name: "Supervision des travaux",
+    description:'Le projet est située à Yaoudé une ville du Cameroun et il etait question de controler les travaux sur chantier en fonction du planning et plans',
+    image: superv,
+    image4: super2,
+    image1: superv1,
+    image2: super3,
+
+    technologie: "Certain outils de controle",
+  },{
+    _id: "jkdkjghhewygtgttgdhgdhg27",
+    project_name: "Ragréage et Curage de routes et dallots",
+    description:'Le projet est située à Bafoussam ville du Cameroun et il etait question de rénové une route et les differents points pour évacuer les eaux',
+    image: ragrea1,
+    image4: ragrea2,
+    image1: verification,
 
     technologie: "AutoCad, Cypecad",
   },
@@ -157,33 +199,34 @@ export const navigations = [
 ];
 
 
-export const testimonial =[
+export const testimonials =[
+  {
+    _id:'uygxscdssdsduguy',
+    text: " Mr. Alex Dounang is truly exceptional. He is not just a good person; he's excellent in every sense. His commitment to keeping promises is remarkable, and I can confidently attest that he is the best choice for delivering your project within a short period of time",
+    name:'Alison De Best',
+    photo:'alison.jpg',
+    titre:'Software Engineer'
+  },
 {
   _id:'uyguguy',
-  text:
-  
-  
-  "Travailler avec MMr DOUNANG DWA a été une expérience exceptionnelle.Son talent pour comprendre les régles du BTP est tout simplement remarquable,mais ce qui le distingue vraiment,c'est son insatiable inspiration. Il apporte une énergie créative qui stimule tout l'équipe. Son respect pour les idées des autres et sa capacité à collaborer font de lui un atout inestimable. Son amour pour la réussite et l'innovation est contagieux, créant une atmosphère propice à l'excellence",
-  name:'HICHAND MOUJAHID ing structure',
-  photo:''
+  text: "Travailler avec MMr DOUNANG DWA a été une expérience exceptionnelle.Son talent pour comprendre les régles du BTP est tout simplement remarquable,mais ce qui le distingue vraiment,c'est son insatiable inspiration. Il apporte une énergie créative qui stimule tout l'équipe. Son respect pour les idées des autres et sa capacité à collaborer font de lui un atout inestimable. Son amour pour la réussite et l'innovation est contagieux, créant une atmosphère propice à l'excellence",
+  name:'Pap Centre',
+  photo:'x (1).jpeg',
+  titre:'PDG-Contruction'
 },
 {
   _id:'ghpjl',
   text:"Je suis constamment impressionné par les talents de Mr DOUNANG DWA dans de construction des logements . Son travail démontre une maîtrise exceptionnelle et une créativité hors pair. Ce qui me fascine le plus, c'est son respect sincère pour chacun dans l'équipe. Il écoute attentivement les idées de chacun et les intègre de manière transparente dans son processus. Sa passion pour la réussite et son esprit innovant sont véritablement motivants.",
-  name:'MARRUIS ing  ',
-  photo:''
-},
- 
-{
-  _id:'',
-  text:'',
-  name:'',
-  photo:''
+  name:'HERVE DONGMO  ',
+  photo:'x (3).jpeg',
+  titre:'Ingenier de structure'
 },
 {
-  _id:'',
-  text:'',
-  name:'',
-  photo:''
+  _id:'ghpjlr44434433434',
+  text:"Les compétences de M. DOUNANG DWA dans le domaine de la construction résident dans une maîtrise exceptionnelle, témoignant d'une créativité remarquable. Ce qui me captive particulièrement, c'est son approche collaborative. Son respect authentique envers chaque membre de l'équipe se reflète dans sa capacité à écouter attentivement et à intégrer harmonieusement les idées de chacun dans son processus. Sa détermination pour la réussite et son esprit innovant continuent de susciter une motivation durable",
+  name:'DJIOFACK JULE  ',
+  photo:'x (2)1.jpeg',
+  titre:'Marine '
 },
+
 ]
